@@ -1,4 +1,4 @@
-# Optativa-WEB
-
-## Aplicações WEB para a internet. OPT
+# Desenvolvimento de Aplicacoes Para a Internet (optativa)
+## FCT-UNESP Presidente Prudente
+### Wilson Estecio Marcílio Junior
 

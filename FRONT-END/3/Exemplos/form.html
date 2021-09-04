@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+    <form>
+        <label for="nome">NOME</label>
+        <input id="nome" type="text" minlength="4" maxlength="12" list="nomes">
+        <datalist id="nomes">
+            <option value="João">
+            <option value="Pedro">
+            <option value="Gabriel">
+            <option value="Caio">
+        </datalist>
+        <label>IDADE</label>
+        <input type="number" name="valor" min="0" max="100" step="1">
+        <input type="submit" value="submit">
+
+        <label for="i5">5</label>
+        <input type="radio" id="i5" value="5">
+
+        <label for="i10">10</label>
+        <input type="radio" id="i10" value="10">
+
+        <label for="i15">15</label>
+        <input type="radio" id="i15" value="15">
+
+        <textarea name="descricao" id="descricao" cols="30" rows="10"></textarea>
+
+    </form>
+</body>
+</html>

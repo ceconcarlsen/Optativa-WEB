@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 65vh 15vh;
+}
+header{
+    background: yellow;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+main{
+    background: green;
+}
+aside{
+    background-color: red;
+}
+footer{
+    background-color: purple;
+    grid-column: 1/3;
+}

@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 85%;
+    height: 100px;
+    float: right;
+    background-image: url("header-new.png");
+    background-image: 20px;
+    border-top: solid 5px #EC5771;
+}
+h1{
+    color: #EC5771;
+    /*Centralizando horizontal e verticalmente*/
+    text-align: center;
+    line-height: 100px;
+}
+
+/*-------------------------------------------------------------------------- */
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+
+    width: 15vw;
+    height: 100vh;
+
+    border: 5px solid #59514F;
+    background: white;
+
+    background-image: url("primeira-geracao.jpg");
+}
+h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+a{
+    font-weight: bolder;
+    background: white;
+    color: black;
+    font-size: 30px;
+    margin-top: 60px;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+/*-------------------------------------------------------------------------- */
+nav{
+    float: right;
+    width: 85%;
+    height: 100vh;
+    background: #F2E750;
+
+    border-top: solid 5px yellow;
+    border-bottom: solid 5px yellow;
+}
+#pikachu{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: yellow;
+    height: 80%;
+    width: 80%;
+
+    align-items: center;
+}
+#img-pikachu{
+    height: 300px;
+    width: 400px;
+}
+p{
+    font-size: large;
+    font-weight: bold;
+}
+#pikachu-power{
+    margin-top: 30px;
+    width: 400px;
+    height: 200px;
+}
+/*-------------------------------------------------------------------------- */
+#section-pokemon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    float: right;
+    width: 85%;
+    height: 500px;
+    background: #F2C849;
+
+    border-top: solid 5px #F25430;
+    border-bottom: solid #F25430;
+}
+#bulbasaur, #charmander, #squirtle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 50px;
+    width: 25%;
+    height: 80%;
+    background: #F25430;
+}
+.img-pokemon{
+    height: 150px;
+    width: 200px;
+}
+.p-pokemon{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.img-pokemon-power{
+    margin-top: 30px;
+    height: 160px;
+    width: 250px;
+}
+/*-------------------------------------------------------------------------- */
+footer{
+    text-align: center;
+
+    float: right;
+    width: 85%;
+    height: 50px;
+    background: #ca4b02;
+
+    border-bottom: solid 5px #9E0002;
+}
+h4{
+    margin-top: 25px;
+    color:white;
+}

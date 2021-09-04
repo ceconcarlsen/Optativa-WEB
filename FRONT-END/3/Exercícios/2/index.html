@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <title>PokeBlog</title>
+</head>
+<body>
+    <div id="sidebar">
+        <h2>Menu</h2>
+        <a href="#pikachu" onclick="pikachu()">Pikachu</a>
+        <a href="#bulbasaur" onclick="bulbasaur()">Bulbasaur</a>
+        <a href="#charmander" onclick="charmander()">Charmander</a>
+        <a href="#squirtle" onclick="squirtle()">Squirtle</a>
+    </div>
+
+    <header>
+        <h1>PokeBlog</h1>
+    </header>
+
+    <nav>
+        <div id="pikachu">
+            <img id="img-pikachu" src="pikachu.png" alt="Pikachu">
+            <p>Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.</p>
+            <img id="pikachu-power" src="Pikachu-Power.png" alt="pikachu-power">
+        </div>
+    </nav>
+
+    <section id="section-pokemon">
+        <div id="bulbasaur">
+            <img class="img-pokemon" src="bulbasaur.png" alt="Bulbasaur">
+            <p class="p-pokemon">There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.</p>
+            <img class="img-pokemon-power" src="Bulbasaur-Power.png" alt="Bulbasaur-Power">
+        </div>
+
+        <div id="charmander">
+            <img class="img-pokemon" src="charmander.png" alt="Charmander">
+            <p class="p-pokemon">It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.</p>
+            <img class="img-pokemon-power" src="Charmander-Power.png" alt="Charmander-Power">
+        </div>
+
+        <div id="squirtle">
+            <img class="img-pokemon" src="squirtle.png" alt="Squirtle">
+            <p class="p-pokemon">When it retracts its long neck into its shell, it squirts out water with vigorous force.</p>
+            <img class="img-pokemon-power" src="Squirtle-Power.png" alt="Squirtle-Power">
+        </div>        
+    </section>
+    <footer><h4>©Copyright GabrielCeconCarlsen</h4></footer>
+
+    <script>
+        function pikachu(){
+            var s = document.getElementById("pikachu");
+            s.style.backgroundColor = "yellow";
+        }
+        function squirtle(){
+            var s = document.getElementById("squirtle");
+            s.style.backgroundColor = "blue";  
+         }
+        function charmander(){
+            var s = document.getElementById("charmander");
+            s.style.backgroundColor = "red";
+        }
+        function bulbasaur(){
+            var s = document.getElementById("bulbasaur");
+            s.style.backgroundColor = "green";
+        }
+    </script>
+</body>
+</html>

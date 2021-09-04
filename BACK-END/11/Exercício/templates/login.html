@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            font-size: large;
+            font-family: "Lucida Console", "Courier New", monospace;
+            margin: 0;
+            border: 0;
+            background-color: #9370DB;
+        }
+        h1{
+            font-family: OCR A Std, monospace;
+            margin-left: 41%;
+            margin-top: 80px;
+        
+        }
+        div{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+
+            width: 400px;
+            height: 400px;
+            background-color: #765AAF;
+            text-align: center;
+
+            box-shadow: #5E488C 5px 5px;
+        }
+        input{
+            border: 2px solid black;
+            margin-top: 30px;
+            margin-left: 10px;
+        }
+        #submit{
+            border: none;
+            background-color: black;
+            color: white;
+            width: 150px;
+            height: 40px;
+            font-size: large;
+        }
+        #submit:hover{
+            background-color: white;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Notas do Aluno</h1>
+    <div>
+    <form action="http://localhost:5000/usuario" method="POST">
+        <p><label>Name</label> <input type= "text" name="Name"></p>
+        <p><label>Phys</label> <input type= "text" name="Physics"></p>
+        <p><label>Chem</label> <input type="text" name="Chemistry"></p>
+        <p><label>Math</label> <input type= "text" name="Mathematics"></p>
+        <p><input type= "submit" value="Submit" id="submit"></p> <!--submit o form para http://localhost:5000/result -->
+    </form >
+    </div>      
+</body>
+</html>

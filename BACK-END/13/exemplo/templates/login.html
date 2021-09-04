@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    {% if error %} <!--Alguém tentou logar e deu um erro-->
+        <p><strong>Error: </strong>{{error}}</p>
+    {% endif %}
+
+    <form action="" method="POST">
+        <d1>
+            <dt>Username</dt>
+            <dd>
+                <input type="text" name="username" value="{{request.form.username}}">
+            </dd>
+            <dt>Password</dt>
+            <dd>
+                <input type="password" name="password">
+            </dd>
+        </d1>
+        <p><input type="submit" value="Login"></p>
+    </form>
+</body>
+</html>
